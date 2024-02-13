@@ -5,9 +5,12 @@
     "docs:preview": "vitepress preview ."
   },
   "devDependencies": {
-    "vitepress": "1.0.0-rc.42"
+    "vitepress": "1.0.0-rc.42",
+    "markdown-it-for-inline": "^2.0.1",
+    "sass": "^1.70.0"
   },
   "dependencies": {
-    "artalk": "^2.8.2"
+    "artalk": "^2.8.2",
+    "vue": "^3.4.18"
   }
 }

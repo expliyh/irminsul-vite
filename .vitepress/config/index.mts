@@ -8,6 +8,15 @@ export default defineConfig({
   title: "世界树",
   description: "Project-Irminsul",
   locales: locales.locales,
+  head: [
+    [
+      "link",
+      {
+        href: "https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/css/lightgallery.css",
+        rel: "stylesheet",
+      },
+    ],
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
