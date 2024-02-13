@@ -26,6 +26,10 @@ const gsm_c4_sidebar = [
       {
         text: '第四幕-谕示胎动的终焉之刻',
         link: '/genshin/mainline/chapter-4/act-4'
+      },
+      {
+        text: '第五幕-罪人舞步旋',
+        link: '/genshin/mainline/chapter-4/act-5'
       }
     ]
   }
