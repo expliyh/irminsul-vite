@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: 第二幕-仿若无因飘落的轻雨
-description: 前往枫丹的时机似乎已经到了，旅者是时候踏上前往枫丹的道路…
+description: 林尼的冤案得到解决，你对下一步行动似乎有些迷茫。面对十分珍惜与你的合作关系的娜维娅，你决定回应她的邀请去吃「散伙饭」…
 footer: true
 editLink: true
 ---

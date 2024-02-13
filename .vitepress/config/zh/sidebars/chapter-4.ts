@@ -18,6 +18,10 @@ const gsm_c4_sidebar = [
       {
         text: '第二幕-仿若无因飘落的轻雨',
         link: '/genshin/mainline/chapter-4/act-2'
+      },
+      {
+        text: '第三幕-向深水中的晨星',
+        link: '/genshin/mainline/chapter-4/act-3'
       }
     ]
   }
