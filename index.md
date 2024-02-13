@@ -8,8 +8,8 @@ hero:
   tagline: 在世界树中，记录提瓦特的一切
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 原神剧情
+      link: /genshin
     - theme: alt
       text: API Examples
       link: /api-examples
