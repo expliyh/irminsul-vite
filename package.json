@@ -5,6 +5,7 @@
     "docs:preview": "vitepress preview ."
   },
   "devDependencies": {
+    "@waline/client": "^3.0.0",
     "vitepress": "^1.0.0-rc.32"
   },
   "dependencies": {
