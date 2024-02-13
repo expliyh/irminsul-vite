@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  artalk:
+    specifier: ^2.8.2
+    version: 2.8.2
+
 devDependencies:
   vitepress:
     specifier: 1.0.0-rc.42
@@ -754,6 +759,10 @@ packages:
       - vue
     dev: true
 
+  /abortcontroller-polyfill@1.7.5:
+    resolution: {integrity: sha512-JMJ5soJWP18htbbxJjG7bG6yuI6pRhgJ0scHHTfkUjf6wjP912xZWvM+A4sJK3gqd9E8fcPbDnOefbA9Th/FIQ==}
+    dev: false
+
   /algoliasearch@4.22.1:
     resolution: {integrity: sha512-jwydKFQJKIx9kIZ8Jm44SdpigFwRGPESaxZBaHSV0XWN2yBJAOT4mT7ppvlrpA4UGzz92pqFnVKr/kaZXrcreg==}
     dependencies:
@@ -772,6 +781,24 @@ packages:
       '@algolia/requester-node-http': 4.22.1
       '@algolia/transporter': 4.22.1
     dev: true
+
+  /artalk@2.8.2:
+    resolution: {integrity: sha512-dz3RssQUrR4sJeqPIxobnrlchEfpVuprNb9c8gkhlTk4Cc8e94ls6OrOPTtcKiMjHF50yDgeu6/+OenXY0k8aA==}
+    dependencies:
+      abortcontroller-polyfill: 1.7.5
+      hanabi: 0.4.0
+      insane: 2.6.2
+      marked: 11.2.0
+    dev: false
+
+  /assignment@2.0.0:
+    resolution: {integrity: sha512-naMULXjtgCs9SVUEtyvJNt68aF18em7/W+dhbR59kbz9cXWPEvUkCun2tqlgqRPSqZaKPpqLc5ZnwL8jVmJRvw==}
+    dev: false
+
+  /comment-regex@1.0.1:
+    resolution: {integrity: sha512-IWlN//Yfby92tOIje7J18HkNmWRR7JESA/BK8W7wqY/akITpU5B0JQWnbTjCfdChSrDNb0DrdA9jfAxiiBXyiQ==}
+    engines: {node: '>=0.10.0'}
+    dev: false
 
   /csstype@3.1.3:
     resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==}
@@ -831,9 +858,27 @@ packages:
     dev: true
     optional: true
 
+  /hanabi@0.4.0:
+    resolution: {integrity: sha512-ixJH94fwmmVzUSdxl7TMkVZJmsq4d2JKrxedpM5V1V+91iVHL0q6NnJi4xiDahK6Vo00xT17H8H6b4F6RVbsOg==}
+    dependencies:
+      comment-regex: 1.0.1
+    dev: false
+
+  /he@0.5.0:
+    resolution: {integrity: sha512-DoufbNNOFzwRPy8uecq+j+VCPQ+JyDelHTmSgygrA5TsR8Cbw4Qcir5sGtWiusB4BdT89nmlaVDhSJOqC/33vw==}
+    hasBin: true
+    dev: false
+
   /hookable@5.5.3:
     resolution: {integrity: sha512-Yc+BQe8SvoXH1643Qez1zqLRmbA5rCL+sSmk6TVos0LWVfNIB7PGncdlId77WzLGSIB5KaWgTaNTs2lNVEI6VQ==}
     dev: true
+
+  /insane@2.6.2:
+    resolution: {integrity: sha512-BqEL1CJsjJi+/C/zKZxv31zs3r6zkLH5Nz1WMFb7UBX2KHY2yXDpbFTSEmNHzomBbGDysIfkTX55A0mQZ2CQiw==}
+    dependencies:
+      assignment: 2.0.0
+      he: 0.5.0
+    dev: false
 
   /magic-string@0.30.7:
     resolution: {integrity: sha512-8vBuFF/I/+OSLRmdf2wwFCJCz+nSn0m6DPvGH1fS/KiQoSaR+sETbov0eIk9KhEKy8CYqIkIAnbohxT/4H0kuA==}
@@ -845,6 +890,12 @@ packages:
   /mark.js@8.11.1:
     resolution: {integrity: sha512-1I+1qpDt4idfgLQG+BNWmrqku+7/2bi5nLf4YwF8y8zXvmfiTBY3PV3ZibfrjBueCByROpuBjLLFCajqkgYoLQ==}
     dev: true
+
+  /marked@11.2.0:
+    resolution: {integrity: sha512-HR0m3bvu0jAPYiIvLUUQtdg1g6D247//lvcekpHO1WMvbwDlwSkZAX9Lw4F4YHE1T0HaaNve0tuAWuV1UJ6vtw==}
+    engines: {node: '>= 18'}
+    hasBin: true
+    dev: false
 
   /minisearch@6.3.0:
     resolution: {integrity: sha512-ihFnidEeU8iXzcVHy74dhkxh/dn8Dc08ERl0xwoMMGqp4+LvRSCgicb+zGqWthVokQKvCSxITlh3P08OzdTYCQ==}
