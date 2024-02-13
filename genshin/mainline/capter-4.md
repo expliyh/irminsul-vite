@@ -3,7 +3,7 @@
 head:
   - - meta
     - http-equiv: refresh
-      content: 0; url=genshin/
+      content: 0; url=capter-4/
 
 ---
 
