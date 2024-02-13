@@ -22,6 +22,10 @@ const gsm_c4_sidebar = [
       {
         text: '第三幕-向深水中的晨星',
         link: '/genshin/mainline/chapter-4/act-3'
+      },
+      {
+        text: '第四幕-谕示胎动的终焉之刻',
+        link: '/genshin/mainline/chapter-4/act-4'
       }
     ]
   }
