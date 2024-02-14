@@ -10,16 +10,16 @@ hero:
     - theme: brand
       text: 原神剧情
       link: /genshin
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+#    - theme: alt
+#      text: API Examples
+#      link: /api-examples
 
-features:
-  - title: 主线剧情
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: 传说任务
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: 活动剧情
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#features:
+#  - title: 主线剧情
+#    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#  - title: 传说任务
+#    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#  - title: 活动剧情
+#    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 

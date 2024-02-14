@@ -1,12 +1,11 @@
-// @ts-ignore
-import theme_config from "./zh/theme_config.mts"
+import {zh_theme_config} from "./zh/theme_config";
 
 export default {
   locales: {
     root: {
       label: '简体中文',
       lang: 'zh',
-      themeConfig: theme_config
+      themeConfig: zh_theme_config
     },
     en: {
       label: 'Engilsh',
