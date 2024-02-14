@@ -8,4 +8,4 @@ editLink: true
 
 # 原神主线剧情
 
-## [第四章](chapter-4)
+- [第四章](chapter-4)

@@ -8,6 +8,10 @@ const gsm_c4_sidebar = [
     link: '/genshin/mainline/'
   },
   {
+    text: '传说任务',
+    link: '/genshin/story/'
+  },
+  {
     text: '第四章',
     link: '/genshin/mainline/chapter-4/',
     items: [
