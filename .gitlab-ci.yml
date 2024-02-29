@@ -1,5 +1,14 @@
 image: node:20
-pages:
+
+before_script:
+  # the following script is taken from https://docs.gitlab.com/ee/ci/ssh_keys/README.html
+  - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+  - eval $(ssh-agent -s)
+  - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
+  - mkdir -p ~/.ssh
+  - chmod 700 ~/.ssh
+
+deploy:
 #   cache:
 #     paths:
 #       - node_modules/
@@ -7,8 +16,7 @@ pages:
     # - apk add git # Uncomment this if you're using small docker images like alpine and have lastUpdated enabled
     - npm install
     - npm run docs:build
-    - apt-get install -y sshpass
-    - sshpass -p $SSH_PASS scp -r public/* autoupload@zjk.irminsul.top:/opt/1panel/apps/openresty/openresty/www/sites/www.irminsul.top/index/
+    - scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -r public/* autoupload@zjk.irminsul.top:/opt/1panel/apps/openresty/openresty/www/sites/www.irminsul.top/index/
 #   artifacts:
 #     paths:
 #       - public
