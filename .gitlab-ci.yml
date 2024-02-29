@@ -14,9 +14,10 @@ deploy:
 #       - node_modules/
   script:
     # - apk add git # Uncomment this if you're using small docker images like alpine and have lastUpdated enabled
-    - npm install
+    - npm install -g pnpm
+    - pnpm install
     - npm run docs:build
-    - scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -r public/* root@zjk.irminsul.top:/opt/1panel/apps/openresty/openresty/www/sites/www.irminsul.top/index/
+    - scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -r .vitepress/dist/* root@zjk.irminsul.top:/opt/1panel/apps/openresty/openresty/www/sites/www.irminsul.top/index/
 #   artifacts:
 #     paths:
 #       - public
