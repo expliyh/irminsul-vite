@@ -1,5 +1,5 @@
 <template>
-  <div class="story-card">
+  <div class="link-card">
     <a :href="link.url" class="card-link">
       <div class="card-content">
         <img :src="link.logo" alt="logo" class="card-logo"/>
@@ -25,7 +25,7 @@ export default {
 </script>
 
 <style scoped>
-.story-card {
+.link-card {
   border: 1px solid #eee;
   border-radius: 10px;
   overflow: hidden;
@@ -37,13 +37,15 @@ export default {
   max-width: 500px; /* Adjust the width as per requirement */
 }
 
-.story-card:hover {
+.link-card:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .card-link {
   display: flex;
   text-decoration: none;
+  height: 100%;
+  width: 100%;
 }
 
 .card-content {

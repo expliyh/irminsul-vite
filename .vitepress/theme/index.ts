@@ -1,5 +1,6 @@
 // .vitepress/theme/index.js
 import DefaultTheme from 'vitepress/theme'
+// @ts-ignore
 import ICP from './ICP.vue'
 
 export default {
