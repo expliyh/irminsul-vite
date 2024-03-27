@@ -7,7 +7,7 @@ editLink: true
 ---
 
 <script setup>
-import StoryCard from '../../.vitepress/components/StoryCard.vue'
+import StoryCard from '../../.vitepress/components/StoryCard.vue';
 
 const storyLinks= [
   {
@@ -17,10 +17,10 @@ const storyLinks= [
     description: '深居净善宫的笼中之鸟，只能在梦中将世界尽收眼底。'
   },
   {
-    title: '测试用',
-    url: 'https://example.com',
-    logo: 'https://vip.123pan.cn/1814176066/DirectLink/%E7%BA%B3%E8%A5%BF%E5%A6%B2_Quan.jpg',
-    description: '测试用'
+    title: '芙宁娜',
+    url: './furina/',
+    logo: 'https://vip.123pan.cn/1814176066/DirectLink/%E8%8A%99%E5%AE%81%E5%A8%9C_QuAn.jpg',
+    description: '审判舞台上的绝对焦点，直至谢幕的掌声响起。'
   },
 ]
 </script>

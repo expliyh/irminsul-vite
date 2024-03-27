@@ -19,6 +19,8 @@ const mainlineLinks= [
 ]
 </script>
 
+# 原神主线任务剧情
+
 <div class="container">
 <LinkCard
   class="link-card"
