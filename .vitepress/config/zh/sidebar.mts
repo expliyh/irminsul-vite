@@ -2,7 +2,8 @@ import {
   gsm_c3_sidebar,
   gsm_c4_sidebar,
   gss_c_furina_sidebar,
-  gss_c_nahida_sidebar
+  gss_c_nahida_sidebar,
+  gss_c_neuvillette_sidebar
 } from "./sidebars";
 import {story_sidebar} from "./sidebars/story";
 
@@ -39,6 +40,7 @@ const zh_sidebar = {
   '/genshin/mainline/chapter-3/': gsm_c3_sidebar,
   '/genshin/mainline/chapter-4/': gsm_c4_sidebar,
   '/genshin/story/nahida/': gss_c_nahida_sidebar,
+  '/genshin/story/neuvillette/': gss_c_neuvillette_sidebar,
   '/genshin/story/furina/': gss_c_furina_sidebar
 }
 

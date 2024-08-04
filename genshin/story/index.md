@@ -17,6 +17,12 @@ const storyLinks= [
     description: '深居净善宫的笼中之鸟，只能在梦中将世界尽收眼底。'
   },
   {
+    title: '那维莱特',
+    url: './neuvillette/',
+    logo: 'https://vip.123pan.cn/1814176066/4376683',
+    description: '枫丹的最高审判官，因其无懈可击的「秉公无私」而闻名。'
+  },
+  {
     title: '芙宁娜',
     url: './furina/',
     logo: 'https://vip.123pan.cn/1814176066/DirectLink/%E8%8A%99%E5%AE%81%E5%A8%9C_QuAn.jpg',
