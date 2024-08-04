@@ -13,7 +13,7 @@ const mainlineLinks= [
   {
     title: '第四章',
     url: './chapter-4/',
-    image: 'https://vip.helloimg.com/images/2023/11/11/odzgcS.webp',
+    image: 'https://vip.123pan.cn/1814176066/8099791',
     description: '枫丹'
   },
   {

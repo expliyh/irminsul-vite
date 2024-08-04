@@ -6,7 +6,7 @@ footer: true
 editLink: true
 ---
 
-![封面](https://vip.helloimg.com/images/2023/11/11/odzgcS.webp)
+![封面](https://vip.123pan.cn/1814176066/8099791)
 
 # 第五幕-罪人舞步旋
 
