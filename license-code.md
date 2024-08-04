@@ -13,6 +13,7 @@ editLink: true
 此协议仅对项目代码生效，项目中使用的其它内容以来源为准
 :::
 
+
                   GNU AFFERO GENERAL PUBLIC LICENSE
                         Version 3, 19 November 2007
 
