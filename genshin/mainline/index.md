@@ -16,6 +16,12 @@ const mainlineLinks= [
     image: 'https://vip.helloimg.com/images/2023/11/11/odzgcS.webp',
     description: '枫丹'
   },
+  {
+    title: '第三章',
+    url: './chapter-3/',
+    image: 'https://vip.123pan.cn/1814176066/DirectLink/%E4%B8%96%E7%95%8C%E6%A0%91%E5%B0%81%E9%9D%A2/c3a6-cover.webp',
+    description: '枫丹'
+  },
 ]
 </script>
 

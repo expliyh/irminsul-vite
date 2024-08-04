@@ -1,4 +1,5 @@
 import {
+  gsm_c3_sidebar,
   gsm_c4_sidebar,
   gss_c_furina_sidebar,
   gss_c_nahida_sidebar
@@ -14,6 +15,10 @@ const zh_sidebar = {
         text: '原神主线',
         link: '/genshin/mainline/',
         items: [
+          {
+            text: '第三章',
+            link: '/genshin/mainline/chapter-3/'
+          },
           {
             text: '第四章',
             link: '/genshin/mainline/chapter-4/'
@@ -31,6 +36,7 @@ const zh_sidebar = {
       }
     ]
   }],
+  '/genshin/mainline/chapter-3/': gsm_c3_sidebar,
   '/genshin/mainline/chapter-4/': gsm_c4_sidebar,
   '/genshin/story/nahida/': gss_c_nahida_sidebar,
   '/genshin/story/furina/': gss_c_furina_sidebar
