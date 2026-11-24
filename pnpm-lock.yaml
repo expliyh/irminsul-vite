@@ -23,7 +23,7 @@ importers:
         version: 1.70.0
       vitepress:
         specifier: 1.0.0-rc.42
-        version: 1.0.0-rc.42(@algolia/client-search@4.22.1)(sass@1.70.0)(search-insights@2.13.0)
+        version: 1.0.0-rc.42(@algolia/client-search@4.22.1)(postcss@8.4.35)(sass@1.70.0)(search-insights@2.13.0)
 
 packages:
 
@@ -624,9 +624,9 @@ packages:
   shiki@1.1.2:
     resolution: {integrity: sha512-qNzFwTv5uhEDNUIwp7wHjsrffVeLbmOgWnM5mZZhoiz7G2qAUvqVfUzuWfieD45/YAKipzCtdV9SndacKtABow==}
 
-  source-map-js@1.0.2:
-    resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}
-    engines: {node: '>=0.10.0'}
+  source-map-js@1.2.4:
+    resolution: {integrity: sha512-J7ZjMvHd9O1fcT/5V09QWaaSl2BbWx3F6O08spde82Namf9UB0GxRVIPiNbVsdKkoizHiSpTodo3vp2bAy91MA==}
+    engines: {node: '>=6.0.0'}
 
   speakingurl@14.0.1:
     resolution: {integrity: sha512-1POYv7uv2gXoyGFpBCmpDVSNV74IfsWlDW216UPjbWufNf+bSU6GdbDsxdcxtfwb4xlI3yxzOTKClUosxARYrQ==}
@@ -827,6 +827,7 @@ snapshots:
       '@algolia/autocomplete-preset-algolia': 1.9.3(@algolia/client-search@4.22.1)(algoliasearch@4.22.1)
       '@docsearch/css': 3.5.2
       algoliasearch: 4.22.1
+    optionalDependencies:
       search-insights: 2.13.0
     transitivePeerDependencies:
       - '@algolia/client-search'
@@ -960,7 +961,7 @@ snapshots:
 
   '@types/web-bluetooth@0.0.20': {}
 
-  '@vitejs/plugin-vue@5.0.4(vite@5.1.1)(vue@3.4.18)':
+  '@vitejs/plugin-vue@5.0.4(vite@5.1.1(sass@1.70.0))(vue@3.4.18)':
     dependencies:
       vite: 5.1.1(sass@1.70.0)
       vue: 3.4.18
@@ -971,7 +972,7 @@ snapshots:
       '@vue/shared': 3.4.18
       entities: 4.5.0
       estree-walker: 2.0.2
-      source-map-js: 1.0.2
+      source-map-js: 1.2.4
 
   '@vue/compiler-dom@3.4.18':
     dependencies:
@@ -988,7 +989,7 @@ snapshots:
       estree-walker: 2.0.2
       magic-string: 0.30.7
       postcss: 8.4.35
-      source-map-js: 1.0.2
+      source-map-js: 1.2.4
 
   '@vue/compiler-ssr@3.4.18':
     dependencies:
@@ -1051,8 +1052,9 @@ snapshots:
     dependencies:
       '@vueuse/core': 10.7.2(vue@3.4.18)
       '@vueuse/shared': 10.7.2(vue@3.4.18)
-      focus-trap: 7.5.4
       vue-demi: 0.14.7(vue@3.4.18)
+    optionalDependencies:
+      focus-trap: 7.5.4
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
@@ -1221,7 +1223,7 @@ snapshots:
     dependencies:
       nanoid: 3.3.7
       picocolors: 1.0.0
-      source-map-js: 1.0.2
+      source-map-js: 1.2.4
 
   preact@10.19.4: {}
 
@@ -1254,7 +1256,7 @@ snapshots:
     dependencies:
       chokidar: 3.6.0
       immutable: 4.3.5
-      source-map-js: 1.0.2
+      source-map-js: 1.2.4
 
   search-insights@2.13.0: {}
 
@@ -1262,7 +1264,7 @@ snapshots:
     dependencies:
       '@shikijs/core': 1.1.2
 
-  source-map-js@1.0.2: {}
+  source-map-js@1.2.4: {}
 
   speakingurl@14.0.1: {}
 
@@ -1279,18 +1281,18 @@ snapshots:
       esbuild: 0.19.12
       postcss: 8.4.35
       rollup: 4.10.0
-      sass: 1.70.0
     optionalDependencies:
       fsevents: 2.3.3
+      sass: 1.70.0
 
-  vitepress@1.0.0-rc.42(@algolia/client-search@4.22.1)(sass@1.70.0)(search-insights@2.13.0):
+  vitepress@1.0.0-rc.42(@algolia/client-search@4.22.1)(postcss@8.4.35)(sass@1.70.0)(search-insights@2.13.0):
     dependencies:
       '@docsearch/css': 3.5.2
       '@docsearch/js': 3.5.2(@algolia/client-search@4.22.1)(search-insights@2.13.0)
       '@shikijs/core': 1.1.2
       '@shikijs/transformers': 1.1.2
       '@types/markdown-it': 13.0.7
-      '@vitejs/plugin-vue': 5.0.4(vite@5.1.1)(vue@3.4.18)
+      '@vitejs/plugin-vue': 5.0.4(vite@5.1.1(sass@1.70.0))(vue@3.4.18)
       '@vue/devtools-api': 7.0.14
       '@vueuse/core': 10.7.2(vue@3.4.18)
       '@vueuse/integrations': 10.7.2(focus-trap@7.5.4)(vue@3.4.18)
@@ -1300,6 +1302,8 @@ snapshots:
       shiki: 1.1.2
       vite: 5.1.1(sass@1.70.0)
       vue: 3.4.18
+    optionalDependencies:
+      postcss: 8.4.35
     transitivePeerDependencies:
       - '@algolia/client-search'
       - '@types/node'
